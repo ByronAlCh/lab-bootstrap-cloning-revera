@@ -1,0 +1,59 @@
+img {
+    width: 100%;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-left: 120px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+
+}
+
+.menu ul {
+    display: flex;
+    margin-left: 400px;
+    margin-top: 10px;
+    list-style: none;
+
+}
+
+.menu li {
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+.menu a {
+    color: gray;
+    text-decoration: none;
+
+}
+
+.home {
+    color: red;
+}
+
+.hero h2 {
+    background-image: url(img/slider-1.jpg);
+    text-align: center;
+    color: white;
+}
+
+.hero p {
+    text-align: center;
+    background-image: url(img/slider-1.jpg);
+    color: white;
+}
+
+.button {
+    background-image: url(img/slider-1.jpg);
+    color: black;
+    border-style: solid;
+    text-align: center;
+    margin-left: 700px;
+    display: flexbox;
+}
